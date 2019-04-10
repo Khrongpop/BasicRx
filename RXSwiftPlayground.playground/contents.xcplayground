@@ -6,5 +6,18 @@
         <page name='2.2 - Behavior Subject'/>
         <page name='2.3 - Replay Subject'/>
         <page name='2.4 - Variable'/>
+        <page name='3 - Operater'/>
+        <page name='3.1 - Buffer'/>
+        <page name='3.1 - Buffer - Dispose'/>
+        <page name='3.2 - Map'/>
+        <page name='3.3 - FlapMap'/>
+        <page name='3.4 - Scan'/>
+        <page name='3.5 - Filter'/>
+        <page name='3.6 - Zip'/>
+        <page name='3.7 - Merge'/>
+        <page name='3.8 - CombineLatest'/>
+        <page name='3.9 - WithLatestFrom'/>
+        <page name='3.10 - StartWith'/>
+        <page name='3.11 - Dispose'/>
     </pages>
 </playground>
