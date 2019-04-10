@@ -12,7 +12,6 @@ Observable
         print("subject1 : \(value1), subject2 : \(value2)")
     })
 
-
 subject2.onNext("💛")
 subject2.onNext("💚")
 subject1.onNext(1)
