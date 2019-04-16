@@ -15,6 +15,8 @@
 		C9DC2EA5225B2DB900F88FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DC2EA3225B2DB900F88FB9 /* LaunchScreen.storyboard */; };
 		C9DC2EB0225B2DB900F88FB9 /* BasicRxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC2EAF225B2DB900F88FB9 /* BasicRxTests.swift */; };
 		C9DC2EBB225B2DB900F88FB9 /* BasicRxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC2EBA225B2DB900F88FB9 /* BasicRxUITests.swift */; };
+		C9DC2ECB225EE0AF00F88FB9 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC2ECA225EE0AF00F88FB9 /* MainTableViewController.swift */; };
+		C9DC2ECD225EE30A00F88FB9 /* BasicUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC2ECC225EE30A00F88FB9 /* BasicUIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C9DC2EBA225B2DB900F88FB9 /* BasicRxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicRxUITests.swift; sourceTree = "<group>"; };
 		C9DC2EBC225B2DB900F88FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9DC2EC8225B2DD200F88FB9 /* RXSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RXSwiftPlayground.playground; sourceTree = "<group>"; };
+		C9DC2ECA225EE0AF00F88FB9 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		C9DC2ECC225EE30A00F88FB9 /* BasicUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicUIController.swift; sourceTree = "<group>"; };
 		FAB815E92453F6A6079A8A2C /* Pods-BasicRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicRx.release.xcconfig"; path = "Target Support Files/Pods-BasicRx/Pods-BasicRx.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +90,6 @@
 				0EFE0B2262347B8C95081795 /* Pods-BasicRx.debug.xcconfig */,
 				FAB815E92453F6A6079A8A2C /* Pods-BasicRx.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -124,6 +127,7 @@
 		C9DC2E99225B2DB700F88FB9 /* BasicRx */ = {
 			isa = PBXGroup;
 			children = (
+				C9DC2EC9225EE06C00F88FB9 /* Controller */,
 				C9DC2E9A225B2DB700F88FB9 /* AppDelegate.swift */,
 				C9DC2E9C225B2DB700F88FB9 /* ViewController.swift */,
 				C9DC2E9E225B2DB700F88FB9 /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				C9DC2EBC225B2DB900F88FB9 /* Info.plist */,
 			);
 			path = BasicRxUITests;
+			sourceTree = "<group>";
+		};
+		C9DC2EC9225EE06C00F88FB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C9DC2ECA225EE0AF00F88FB9 /* MainTableViewController.swift */,
+				C9DC2ECC225EE30A00F88FB9 /* BasicUIController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +350,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9DC2E9D225B2DB700F88FB9 /* ViewController.swift in Sources */,
+				C9DC2ECB225EE0AF00F88FB9 /* MainTableViewController.swift in Sources */,
+				C9DC2ECD225EE30A00F88FB9 /* BasicUIController.swift in Sources */,
 				C9DC2E9B225B2DB700F88FB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
